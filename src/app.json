@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/free-market/main",
+    "pages/find-things/main",
+    "pages/order-food/main",
+    "pages/index/main",
+    "pages/publish/main",
+    "pages/campus-space/main",
+    "pages/passwordSetting/main",
+    "pages/userinfoDetail/main",
+    "pages/campusPubPage/main",
+    "pages/freemarketPubPage/main",
+    "pages/findthingsPubPage/main",
+    "pages/contactUs/main",
+    "pages/me/main",
+    "pages/mypublish/main",
+    "pages/message/main",
+    "pages/orders/main",
+    "pages/menu/main",
+    "pages/aboutUs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#93f7a3",
+    "navigationBarTitleText": "指尖云大",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "消息",
+      "pagePath": "pages/message/main",
+      "iconPath": "static/tabs/message.png",
+      "selectedIconPath": "static/tabs/message-active.png"
+    }, {
+      "text": "发布",
+      "pagePath": "pages/publish/main",
+      "iconPath": "static/tabs/publish.png",
+      "selectedIconPath": "static/tabs/publish-active.png"
+    }, {
+      "text": "订单",
+      "pagePath": "pages/orders/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/tabs/me.png",
+      "selectedIconPath": "static/tabs/me-active.png"
+    }],
+    "position": "bottom"
+  }
+}
