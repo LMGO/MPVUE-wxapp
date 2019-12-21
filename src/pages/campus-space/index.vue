@@ -209,7 +209,7 @@ data(){
         //   console.log(error);
         //   });
 
-         _this.wespacenewpub = response.data.wespaceList;
+         _this.wespacenewpub = response.data.wespaceList.reverse();
           for(let index in _this.wespacenewpub){
         //   _this.$fly.post('http://106.14.83.188:8080/admin/upjudge', _this.$qs.stringify({
         //     userId:_this.$store.state.userInfo.userId,

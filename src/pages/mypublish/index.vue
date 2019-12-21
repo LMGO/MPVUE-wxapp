@@ -384,7 +384,7 @@ export default {
           console.log(response);
         
 
-         _this.find = response.data.lostandfoundList;
+         _this.find = response.data.lostandfoundList.reverse();
           for(let index in _this.find){
           
           
@@ -557,7 +557,7 @@ export default {
           console.log(response);
         
 
-         _this.wespacemypub = response.data.wespaceList;
+         _this.wespacemypub = response.data.wespaceList.reverse();
           for(let index in _this.wespacemypub){
           
           
@@ -766,7 +766,7 @@ export default {
           console.log(response);
         
 
-         _this.freemarket = response.data.marketList;
+         _this.freemarket = response.data.marketList.reverse();
           for(let index in _this.freemarket){
           
             console.log(_this.freemarket[index].marketDeal);
