@@ -247,7 +247,7 @@ data(){
           console.log(response);
         
 
-         _this.freemarket = response.data.marketList.reverse();
+         _this.freemarket = response.data.marketList;
           for(let index in _this.freemarket){
           
             console.log(_this.freemarket[index].marketDeal);

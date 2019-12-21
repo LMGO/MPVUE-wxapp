@@ -206,7 +206,7 @@ data(){
           console.log(response);
         
 
-         _this.find = response.data.lostandfoundList.reverse();
+         _this.find = response.data.lostandfoundList;
           for(let index in _this.find){
           
           
