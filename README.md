@@ -1,6 +1,8 @@
 # zhijian-yunda
 
 > A wxapp about compus service of YNU
+这是一个学校课程的作业，前端采用MPVUE,后端是springboot.目前发帖部分图片没有搞好，原计划的商家部分未完成，但其他功能基本完善。涉及登录、注册，可以发生活帖、寻物贴，二手贴。点赞评论，标记寻物状态，交易状态，个人中心，信息修改等。
+后端地址：https://github.com/LMGO/MPVUE-wxapp.service.git
 
 ## Build Setup
 
@@ -10,13 +12,13 @@ vue init mpvue/mpvue-quickstart myproject
 cd myproject
 
 # 安装依赖
-yarn
+npm install
 
 # 开发时构建
-npm dev
+npm run dev
 
 # 打包构建
-npm build
+npm run build
 
 # 指定平台的开发时构建(微信、百度、头条、支付宝)
 npm dev:wx
