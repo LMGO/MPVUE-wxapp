@@ -7,9 +7,8 @@
 ## Build Setup
 
 ``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
+# 下载项目
+git clone+本项目仓库地址
 
 # 安装依赖
 npm install
